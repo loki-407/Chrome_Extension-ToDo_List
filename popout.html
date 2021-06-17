@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>ToDo List</title>
+  <style>
+    body{
+      width: 400px;
+    }
+    .new-item{
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="m-3">
+  <div class="container">
+    <div class="d-flex justify-content-between m-3">
+      <h1>My Todo's</h1>
+      <span class="create-todo btn btn-warning">Create ToDo List</span>
+    </div>
+
+    <div class="new-item mb-3">
+      <input class="form-control" placeholder="Enter TODO" type="text"/>
+      <button class="btn btn-dark input-group-text">Save</button>
+    </div>
+
+    <ul class="list-group todo-items">
+      <!-- <li class="list-group-item">Lorem, ipsum dolor. <span class="btn btn-primary">done</span> <span class="btn btn-danger">delete</span> </li>
+      <li class="list-group-item">Lorem, ipsum dolor. <span class="btn btn-primary">done</span> <span class="btn btn-danger">delete</span> </li>
+      <li class="list-group-item">Lorem, ipsum dolor. <span class="btn btn-primary">done</span> <span class="btn btn-danger">delete</span> </li> -->
+      
+    </ul>
+
+    <script src="popout.js"></script>
+  </div>
+</body>
+
+</html>
